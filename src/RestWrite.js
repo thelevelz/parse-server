@@ -302,7 +302,7 @@ RestWrite.prototype.handleAuthData = function(authData) {
                               'this auth is already used');
         }
       }
-    } 
+    }
     return Promise.resolve();
   });
 }
